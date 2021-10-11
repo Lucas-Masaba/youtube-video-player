@@ -60,3 +60,29 @@ img[src*='voice'] {
     background-color: gainsboro;
     border-radius: 100px;
 }
+
+
+/*increasing search box size*/
+
+.search-box>input {
+    flex-grow: 100;
+}
+
+
+/*fixing header*/
+
+header {}
+
+.left-side,
+.right-side {
+    height: 100vh;
+    width: 100%;
+}
+
+.left-side {
+    background-color: blue;
+}
+
+.right-side {
+    background-color: red;
+}
