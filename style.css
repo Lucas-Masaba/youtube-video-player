@@ -7,8 +7,6 @@ body {
     margin: 5px;
 }
 
-.icon-nav:hover {}
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -21,4 +19,44 @@ nav {
 
 ul>img {
     padding: 0 8.2px;
+}
+
+
+/*hovering pointers over the icon*/
+
+.icon-nav:hover {
+    cursor: pointer;
+}
+
+
+/*position the search box to fit */
+
+.search-box {
+    border: 1px solid black;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*working on the search icon*/
+
+img[src*='search'] {
+    border: hidden;
+    background-color: gainsboro;
+    border-radius: 15px;
+}
+
+header {
+    border-bottom: 1px solid black;
+}
+
+
+/*working on the voice icon. */
+
+img[src*='voice'] {
+    border: hidden;
+    background-color: gainsboro;
+    border-radius: 100px;
 }
