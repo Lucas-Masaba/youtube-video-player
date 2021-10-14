@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-size: 0.9em;
+    background-color: gainsboro;
 }
 
 .icon-nav {
@@ -48,7 +49,9 @@ img[src*='search'] {
     border-radius: 15px;
 }
 
-header {}
+header {
+    background-color: white;
+}
 
 
 /*working on the voice icon. */
@@ -79,7 +82,10 @@ header {}
 
 .left-side {}
 
-.right-side {}
+.right-side {
+    padding-left: 230px;
+    padding-top: 30px;
+}
 
 .video {
     background-color: gainsboro;
@@ -144,4 +150,91 @@ button:hover {
     body {
         background-color: lightblue;
     }
+}
+
+.number-of-comments {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.add {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.cancel {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.public-comment {
+    padding-bottom: 20px;
+}
+
+.thumbnail {
+    border: 1px black solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.organize {
+    display: flex;
+    align-items: center;
+}
+
+.move-to-the-left {
+    padding-left: 0px;
+}
+
+.individual {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content {
+    padding-left: 35px;
+    padding-top: 0px;
+}
+
+.individual-views {
+    padding-left: 35px;
+}
+
+.views {
+    padding-left: 0px;
+}
+
+.replies {
+    color: blue;
+    display: flex;
+    align-items: center;
+    padding-left: 32px;
+    padding-top: 10px;
+}
+
+.view-replies {
+    cursor: pointer;
+}
+
+img[src*="down-arrow"] {
+    cursor: pointer;
+}
+
+.more-content {
+    padding-left: 5px;
+}
+
+.all {
+    background-color: gainsboro;
+    border-radius: 30px;
+    border: solid black 0.5px;
+    color: black;
+}
+
+.organize:hover {
+    cursor: pointer;
+}
+
+input {
+    width: 94%;
 }
